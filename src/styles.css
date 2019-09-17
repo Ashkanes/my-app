@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "iransans";
+    src:  url('./assets/fonts/IRANSans-web.eot');
+    src:  url('./assets/fonts/IRANSans-web.eot#iefix') format('embedded-opentype'),
+    url('./assets/fonts/IRANSans-web.ttf') format('truetype'),
+    url('./assets/fonts/IRANSans-web.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    font-family:"iransans";
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}

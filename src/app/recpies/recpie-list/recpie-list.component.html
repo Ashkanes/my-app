@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-xs-12">
+      <button class="btn btn-success">دستور غذای جدید</button>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-xs-12">
+      <app-recpie-item *ngFor="let recipe of recpies" [recipe]="recipe" (selectedRecipe)="onEntekhabRecipe($event)"></app-recpie-item>
+    </div>
+  </div>
